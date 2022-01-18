@@ -8,6 +8,8 @@
 5. some any time later
 6. docker-compose up 
 
+### В браузере http://IP:8092/ и далее прописываем свою БД (MySQL)
+
 
 ### or manual 
 1. wget https://github.com/dima-bzz/Accounting-technology/archive/refs/heads/master.zip
