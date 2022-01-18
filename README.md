@@ -1,4 +1,4 @@
-# at
+# at на посмотреть для 02 региона
 
 
 1. git clone https://github.com/breareros/at.git
