@@ -5,7 +5,7 @@
 2. cd at
 3. ./install.sh
 4. docker-compose build 
-5. some any time later
+5. ![изображение](https://user-images.githubusercontent.com/22466072/149897521-01d00c8b-d57f-4d4b-8804-5cc144ebb98f.png)
 6. docker-compose up 
 
 ### В браузере http://IP:8092/ и далее прописываем свою БД (MySQL)
