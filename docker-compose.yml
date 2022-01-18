@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  at_app:  
+    build: ./php5.6
+    #build: https://github.com/felipeelia/docker-php5.4-apache.git
+    ports:
+      - "8092:80"
+        #ead_only: true
+        #restart: unless-stopped
+    volumes:
+      # This directory must have cert files if you want to enable SSL
+      - ./www/:/var/www/html
+      - ./volumes/www_log/:/var/log/apache2/
+      - /etc/localtime:/etc/localtime:ro
